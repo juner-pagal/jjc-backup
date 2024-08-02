@@ -11,3 +11,120 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* styles by Juner */
+.companyName{
+  font-weight: bold;
+}
+
+.c-item{
+  height: 480px;
+}
+
+.c-image{
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(.4);
+}
+
+.row{
+  /* background-color: orange; */
+  width: 100%;
+  margin: auto;
+}
+.counterBackground{
+  background-color: rgba(5, 5, 119);
+  color:#fff;
+  padding: 50px;
+  margin-top: 20px;
+}
+.container-padder{
+  padding: 30px;
+}
+.btn-styler{
+  padding: 10px 20px;
+  margin: 50px 15px 10px 15px;
+}
+.featuredServices{
+  /* margin-top: 50px; */
+  background-color: #fff;
+  padding: 50px 0px 10px 0px;
+}
+.featuredServices img:hover{
+  filter: opacity(.9);
+  cursor: pointer;
+}
+.featuredServices ul li{
+  text-decoration: none;
+  border-top: 2px solid rgb(59, 16, 211);
+  color: rgb(0, 153, 255);
+  display: inline-block;
+  padding: 5px 20px;
+  font-weight: bold;
+  background-color: rgb(230, 240, 247);
+}
+.featuredUL{
+  display: inline-block;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.featuredUL ul{
+  background-color: #fff;
+  border-radius: 25px;
+  border-bottom: 1px solid rgb(187, 184, 184);
+}
+.featuredUL ul li{
+  margin: 5px;
+  background-color: #fff;
+  border: none;
+  color: grey;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.featuredUL ul li:hover, .featuredUL ul .btn-active{
+  background-color: blue;
+  color: white;
+}
+
+/* Styling Web Packages */
+.web-packages {
+  background-color: azure;
+  color: rgb(87, 84, 84);
+  padding: 10px;
+}
+.web-packages img{
+  width: 80%;
+  margin: auto;
+}
+
+.p-box, .box-recommended{
+  margin: 5px auto;
+  border: 1px solid silver;
+  padding: 30px 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #888888;
+  filter: opacity(.9);
+  cursor: pointer;
+}
+.p-box:hover, .box-recommended:hover{
+  filter: opacity(1);
+}
+.box-recommended{
+  background-color: rgb(9, 9, 151);
+  color:#fff;
+}
+.btn-service{
+  margin: 20px auto 5px auto;
+  border-radius: 25px;
+}
+.newsletter{
+  padding: 100px 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(45, 45, 85);
+}
+.newsletter .btn {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/*End of Juner Styling */
