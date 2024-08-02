@@ -3,6 +3,8 @@ import NavbarHome from "./NavbarHome";
 import Carousel from "./Carousel";
 import WebPackage from "./WebPackage";
 import CounterUpPage from "./CounterUpPage";
+import Footer from "./Footer";
+
 
 function HomePage() {
     return(
@@ -11,6 +13,7 @@ function HomePage() {
             <Carousel />
             <WebPackage />
             <CounterUpPage />
+            <Footer />
         </>
     )
 }

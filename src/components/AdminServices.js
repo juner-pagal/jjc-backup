@@ -1,12 +1,7 @@
 import {useState, useEffect} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import {BrowserRouter as Router, Route, Routes, withRouter, useFetcher} from 'react-router-dom';
-// import Home from './components/Home';
-// import Header from './Header';
-// import ListStudent from '../src/components/ListStudent';
-// import AddStudent from './components/AddStudent';
-// import EditStudent from './components/EditStudent';
-// import './App.css';
+
 import axios from 'axios';
 
 function App() {
@@ -182,7 +177,7 @@ function App() {
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button className='btn btn-success mt-1' title={val.id} onClick={UpBtn}>Update</button>
+                      <button className='btn btn-success mt-1' data-bs-dismiss="modal" title={val.id} onClick={UpBtn}>Update</button>
                     </div>
                   </div>
                 </div>

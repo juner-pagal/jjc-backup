@@ -11,6 +11,7 @@ import AdminRolePricing from './components/AdminRolePricing';
 import AdminBooking from './components/AdminBooking';
 import HomePage from './components/HomePage';
 import AboutUs from './components/AboutUs';
+import Services from './components/Services';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path='/admin-services' element={<AdminServices />} />
         <Route path='/admin-role-pricing' element={<AdminRolePricing />} />
         <Route path='view-booking' element={<AdminBooking />}/>
+        <Route path='/services' element={<Services />} />
       </Routes>
     </BrowserRouter>
   );

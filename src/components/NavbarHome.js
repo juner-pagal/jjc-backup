@@ -1,4 +1,3 @@
-import Login from "./Login";
 import { useNavigate } from "react-router-dom";
 import SiteLogo from '../site-logo.png';
 import { Link } from "react-router-dom";
@@ -19,6 +18,9 @@ const NavbarHome = () => {
         // }, []);
     const Login = () => {
         navigate('/login');
+    }
+    const Register = () => {
+        navigate('/register');
     }
     return(
         <>
@@ -48,6 +50,9 @@ const NavbarHome = () => {
                 </ul>
                 <span className="navbar-text" onClick={Login} style={{cursor:"pointer"}}>
                     Login
+                </span>
+                <span className="navbar-text" onClick={Register} style={{cursor:"pointer", margin: "0px 10px 0px 10px"}}>
+                    Register
                 </span>
                 </div>
             </div>
